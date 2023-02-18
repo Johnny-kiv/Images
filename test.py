@@ -14,7 +14,8 @@ for line in lines:
     pixels.pop(-1)
     x=0
     for pixel in pixels:
-        rgb = 0,0,int(pixel)
+        p = int(pixel)-10
+        rgb = 0,0,p
         c.create_line(x,y,x+1,y,fill=get_rgb(rgb))
         x+=1
 c.pack()
