@@ -8,4 +8,4 @@ def translate_image(fileout,color):
         for pixel in line:
             file.write(str(pixel[color])+" ")
         file.write("\n")
-translate_image("output.txt",1)
+translate_image("output.txt",2)
