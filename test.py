@@ -2,6 +2,8 @@ def get_rgb(rgb):
     r, g, b = rgb
     return f'#{r:02x}{g:02x}{b:02x}'
 from tkinter import *
+import descriptor
+descriptor.translate_image("output.txt",1,2)
 root = Tk()
 c = Canvas(width=640,height=480)
 inp = open("output.txt")
@@ -10,13 +12,19 @@ y=0
 
 for line in lines:
     y+=1
-    pixels = line.split(" ")
+    pixels = line.split("|")
     pixels.pop(-1)
     x=0
     for pixel in pixels:
-        p = int(pixel)-10
-        rgb = 0,0,p
-        c.create_line(x,y,x+1,y,fill=get_rgb(rgb))
+        p = pixel.split(" ")
+        r = int(p[0])
+        g = int(p[1])
+        try:
+            rgb = r,g,100
+            c.create_line(x,y,x+1,y,fill=get_rgb(rgb))
+        except:
+            rgb = r,g,100
+            c.create_line(x,y,x+1,y,fill=get_rgb(rgb))
         x+=1
 c.pack()
 root.mainloop()
