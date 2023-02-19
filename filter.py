@@ -18,11 +18,15 @@ for line in lines:
     x=0
     for pixel in pixels:
         p = pixel.split(" ")
-        r = random.randint(0,255)
+        r = int(p[0])
         g = int(p[1])
-        b = int(p[2])
-        rgb = r,g,b
-        c.create_line(x,y,x+5,y+10,fill=get_rgb(rgb))
+        b = 100
+        try:
+            rgb = r-50,g-50,b
+            c.create_line(x,y,x+5,y+10,fill=get_rgb(rgb))
+        except:
+            rgb = r,g,b
+            c.create_line(x,y,x+5,y+10,fill=get_rgb(rgb))
         x+=1
 c.pack()
 root.mainloop()
