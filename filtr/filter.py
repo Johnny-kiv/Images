@@ -8,7 +8,7 @@ def get_rgb(rgb):
 from tkinter import *
 root = Tk()
 c = Canvas(width=640,height=480)
-inp = open("output.txt")
+inp = open("../output.txt")
 lines = inp.read().split("\n")
 y=0
 
