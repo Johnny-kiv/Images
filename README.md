@@ -19,4 +19,11 @@ _______________________________________________________
 _______________________________________________________
 <h3>Run</h3>
 <p>Find filter/filter.py and run. You will get this picture:</p>
+
 ![re2.png](readme%2Fre2.png)
+```
+        g = int(p[1])
+        b = int(p[2])
+```
+![res2.png](readme%2Fres2.png)
+<p>You make image without green and blue color.</p>

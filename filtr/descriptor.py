@@ -9,4 +9,4 @@ def translate_image(fileout,color1,color2,color3):
             res = str(pixel[color1])+" "+str(pixel[color2])+" "+str(pixel[color3])+"|"
             file.write(res)
         file.write("\n")
-translate_image("output.txt",0,1,2)
+translate_image("descriptor.txt",0,1,2)
