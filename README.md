@@ -8,5 +8,6 @@
 
 <h4>If you have not installed Pycharm <a href="https://www.jetbrains.com/pycharm/">follow the link</a> and install it.</h4>
 <h4>Open this project in Pycharm</h4>
-<h4>Open terminal and enter this commands:<h4>
-`pip install numpy`
+<h4>Open terminal and install 2 modules:<h4>
+* pip install numpy
+* pip install Pillow
