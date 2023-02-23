@@ -6,4 +6,6 @@
 
 <h4>Unpack project.</h4>
 
-<h4>If you have not installed pycharm <a href="https://www.jetbrains.com/pycharm/">follow the link</a> and install it.</h4> 
+<h4>If you have not installed Pycharm <a href="https://www.jetbrains.com/pycharm/">follow the link</a> and install it.</h4> 
+
+<h4>Откройте этот проект в Pycharm</h4>
