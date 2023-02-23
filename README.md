@@ -21,7 +21,8 @@ _______________________________________________________
 <p>Find filter/filter.py and run. You will get this picture:</p>
 
 ![re2.png](readme%2Fre2.png)
-Change line 22 and 23:
+
+<p>Change line 22 and 23:</p>
 ```
 g = 0
 b = 0
