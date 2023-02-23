@@ -1,5 +1,5 @@
 <h1>Images</h1> 
-_______________________________________________________
+
 <h2>Filter Instructions</h2>
 <h3>Install</h3>
 <p>Download this project in ZIP Code/Download ZIP.</p>
@@ -16,7 +16,7 @@ _______________________________________________________
 pip install numpy
 pip install Pillow
 ```
-_______________________________________________________
+
 <h3>Run</h3>
 <p>Find filter/filter.py and run. You will get this picture:</p>
 
