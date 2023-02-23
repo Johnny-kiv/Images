@@ -23,6 +23,7 @@ pip install Pillow
 ![re2.png](readme%2Fre2.png)
 
 <p>Change line 22 and 23:</p>
+
 ```
 g = 0
 b = 0
