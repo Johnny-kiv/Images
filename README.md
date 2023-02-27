@@ -43,3 +43,5 @@ b = 0
 ![res5.png](readme%2Fres5.png)
 
 <p>or swap places red and blue:</p>
+
+![res6.png](readme%2Fres6.png)
