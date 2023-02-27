@@ -18,9 +18,9 @@ for line in lines:
     x=0
     for pixel in pixels:
         p = pixel.split(" ")
-        r = int(p[0])
-        g = int(p[1])
-        b = int(p[2])
+        r = int(p[0]) #red
+        g = int(p[1]) #green
+        b = int(p[2]) #blue
         rgb = r,g,b
         c.create_line(x,y,x+1,y,fill=get_rgb(rgb))
         x+=1

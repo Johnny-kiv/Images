@@ -30,7 +30,16 @@ b = 0
 ```
 ![res2.png](readme%2Fres2.png)
 <p>You make image without green and blue color.</p>
-The same can be done with other colors:
+<p>The same can be done with other colors:</p>
 
 ![res3.png](readme%2Fres3.png)
+<p>without green and red</p>
+
 ![res4.png](readme%2Fres4.png)
+<p>without blue and red.</p>
+
+<p>You can change color car swap places red and green:</p>
+
+![res5.png](readme%2Fres5.png)
+
+<p>or swap places red and blue:</p>
