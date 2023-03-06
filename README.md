@@ -1,4 +1,4 @@
-<h1>Images</h1> 
+<h1>Images - my experiments with image</h1> 
 
 <h2>Filter Instructions</h2>
 <h3>Install</h3>
@@ -18,7 +18,7 @@ pip install Pillow
 ```
 
 <h3>Run</h3>
-<p>Find filter/filter.py and run. You will get this picture:</p>
+<p>Find filtr/filter.py and run. You will get this picture:</p>
 
 ![re2.png](readme%2Fre2.png)
 
@@ -45,3 +45,6 @@ b = 0
 <p>or swap places red and blue:</p>
 
 ![res6.png](readme%2Fres6.png)
+
+<h2>Face Recognition</h2>
+<p>Find face_rec/main.py</p>

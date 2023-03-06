@@ -25,9 +25,9 @@ def compare_faces(img_path):
     img_encoding = face_recognition.face_encodings(img)[0]
     result_j = face_recognition.compare_faces([ves_j_encoding],img_encoding)
     result_v = face_recognition.compare_faces([ves_v_encoding],img_encoding)
-    if result_j==[True]: return "Привет, Ваня"
-    elif result_v==[True]: return "Здравствуйте, Владимир!"
-    else: return "Привет! Ты кто?"
+    if result_j==[True]: return "Hello,<name>"
+    elif result_v==[True]: return "Hello,<name>"
+    else: return "Hello, Who are you?"
 #    print(result)
 
 
