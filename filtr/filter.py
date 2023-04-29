@@ -1,9 +1,8 @@
-#Function for converting rgb color to web color
 def get_rgb(rgb):
     r, g, b = rgb
     return f'#{r:02x}{g:02x}{b:02x}'
 # importing moduls
-from tkinter import *
+from tkinter import Tk,Canvas
 # Create canvas
 root = Tk()
 c = Canvas(width=640,height=480)
